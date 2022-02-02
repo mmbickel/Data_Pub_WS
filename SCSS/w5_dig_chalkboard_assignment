@@ -1,0 +1,20 @@
+
+
+
+Write a function lastItem() that takes one parameter.
+The parameter will be an array that you can hard code into an onclick event on the button.
+onclick="lastItem(['Watermelon', 'Apple', 'Orange', 'Kiwi'])"
+Prepare a div on your page to display some output.
+The function should output the original array on the page: ['Watermelon', 'Apple', 'Orange', 'Kiwi'].
+The function should output the item that is last alphabetically: Watermelon.
+Test your function by adding new values to the array.
+You can just console.log the value.
+
+
+Write a function that asks for four different things, then sorts them alphabetically and displays them on the HTML page.
+Ask the user four times to provide the name of a thing: fruit, animal, state, and country.
+After they submit the fourth value, display the four values in original order then sorted alphabetically.
+You can decide how the function is invoked.
+You can decide what sort of input strategy to use.
+There are many ways to make this happen. It's up to you.
+
