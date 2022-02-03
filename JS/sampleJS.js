@@ -1,3 +1,3 @@
 function howdy(FirstName){
-    alert("Howdy " + firstName);
+    alert("Howdy " + FirstName);
 }
