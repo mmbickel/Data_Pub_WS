@@ -15,3 +15,12 @@ function conditional(){
 for (i = 0; i < 5; i++) {
     console.log("The number is " + i);
 }
+function evalNumber(){
+    var inputValue = Number(prompt("Enter my five-digit number without commas"))
+
+    if (inputValue % 2 == 0) {
+        alert(inputValue + "is an even number.")
+    } else {
+        alert(inputValue + " is an odd number.")
+    }
+}
