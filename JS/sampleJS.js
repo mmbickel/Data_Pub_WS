@@ -17,9 +17,10 @@ for (i = 0; i < 5; i++) {
 }
 function evalNumber(){
     var inputValue = Number(prompt("Enter my five-digit number without commas"))
-
-    if (inputValue % 2 == 0) {
-        alert(inputValue + "is an even number.")
+    if (isNaN(inputValue)) {
+        alert(inputValue + " is not a number.")
+    } else if (inputValue % 2 == 0) {
+        alert(inputValue + " is an even number.")
     } else {
         alert(inputValue + " is an odd number.")
     }
